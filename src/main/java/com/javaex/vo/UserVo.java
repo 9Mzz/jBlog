@@ -9,7 +9,7 @@ public class UserVo {
 	private String password;
 	private String joinDate;
 
-	// 생성자
+	// 생성자 
 	public UserVo() {
 	}
 
