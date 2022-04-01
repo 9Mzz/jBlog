@@ -31,6 +31,7 @@ public class BlogController {
 		Map<String, Object> bMap = blogService.getBlog(id);
 		BlogVo authVo = (BlogVo) bMap.get("blogVo");
 
+		
 		if (authVo != null) {
 			System.out.println("[블로그 접속 성공]");
 
